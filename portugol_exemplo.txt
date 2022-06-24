@@ -1,0 +1,23 @@
+programa {
+	//para rodar use o site => https://portugol-webstudio.cubos.io/ide#share=66096
+
+
+	funcao inicio() {
+		inteiro x, y
+		inteiro total, resultado_parcial, resultado
+		
+		escreva("Digite um numero: ")
+		leia(x)
+		escreva("Digite um segundo numero: ")
+		leia(y)
+		
+		total = y/2
+	    resultado_parcial = y+x
+	    resultado = total * resultado_parcial
+		
+
+		
+		escreva("Resultado: "+resultado)
+	}
+	
+}
